@@ -28,7 +28,8 @@ public class LoginTest {
 	public void setup() {
 		
 		try {
-  		  	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver");
+  		  	//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver");
+			System.setProperty("webdriver.gecko.driver","https://github.com/salunkheh/SampleGitHubAction/blob/main/Drivers/geckodriver");
 		   // driver = new FirefoxDriver();
   		 
   		  	
