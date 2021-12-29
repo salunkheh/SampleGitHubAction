@@ -70,7 +70,7 @@ public class LoginTest {
 		       // AppData.waitForElement(driver, driver.findElement(By.xpath(AppData.lgnnamepath)));
 		               
 		        String pathName = driver.findElement(By.className("rip-user-name")).getText();
-		        System.out.println(pathName);
+		        System.out.println("Logged in as "+pathName);
 		        
 		        AppData.waitForElement(driver, driver.findElement(By.className("rip-user-name")));
 		        
