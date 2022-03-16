@@ -74,7 +74,7 @@ public class LoginTest {
 		        
 		        AppData.waitForElement(driver, driver.findElement(By.className("rip-user-name")));
 		        
-		        Assert.assertEquals("Harish Salunkhe1", AppData.getPathName(driver, AppData.lgnnamepath));
+		        Assert.assertEquals("Harish Salunkhe", AppData.getPathName(driver, AppData.lgnnamepath));
 		        
 		        Assert.assertEquals("Manage", AppData.getPathName(driver, AppData.menuitempath));
 			    
