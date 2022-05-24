@@ -25,6 +25,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        cache: maven
+        cache: maven        
+    - name: See Environment Variables
+      run: env
     - name: Selenium Login Test
       run: mvn clean test
