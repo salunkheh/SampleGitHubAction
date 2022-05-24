@@ -29,7 +29,7 @@ public class LoginTest {
 		
 		try {
   		  	//System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver");
-			System.setProperty("webdriver.gecko.driver","usr/local/share/gecko_driver");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver");
 			//System.setProperty("webdriver.gecko.driver","https://github.com/salunkheh/SampleGitHubAction/blob/main/Drivers/geckodriver");
 		   // driver = new FirefoxDriver();
   		 //To trigger workflow demo login test
