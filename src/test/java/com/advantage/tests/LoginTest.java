@@ -36,18 +36,18 @@ public class LoginTest {
 			//System.setProperty("webdriver.gecko.driver","https://github.com/salunkheh/SampleGitHubAction/blob/main/Drivers/geckodriver");
 		   // driver = new FirefoxDriver();
   		 //To trigger workflow demo login test
-  		  	/*
+  		  	
   		  	FirefoxOptions options = new FirefoxOptions();
           options.setHeadless(true);
           
           //pass the options parameter in the Firefox driver declaration
            driver = new FirefoxDriver(options);
-		    */		
+		/*    	
 		   ChromeOptions options = new ChromeOptions();
 		   options.addArguments("--no-sandbox");
             	   options.addArguments("--headless");
 		   driver = new ChromeDriver(options);
-			
+		*/		
 		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		     } 
 		catch (Exception e) {
